@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>使用 jQuery 前往指定元素</title>
+    <link rel="stylesheet" href="./styls.css">
 </head>
-<body>
+
+<body id="top">
     <nav>
-        <span>連結1</span>
-        <span>連結2</span>
-        <span>連結3</span>
+        <!-- target 目標 -->
+        <!-- duration 時間 -->
+        <!-- offset 位移 -->
+        <span data-gt-target="$box1" data-gt-duration="1000" data-gt-offset="0">連結1</span>
+        <span data-gt-target="$box2" data-gt-duration="1500" data-gt-offset="200">連結2</span>
+        <span data-gt-target="$box3" data-gt-duration="2000" data-gt-offset="0">連結3</span>
     </nav>
 
-    <section>區塊1</section>
-    <section>區塊2</section>
-    <section>區塊3</section>
+    <section id="box1">區塊1</section>
+    <section id="box2">區塊2</section>
+    <section id="box3">區塊3</section>
+
+    <img src="./383150-64.png" alt="回到頂端" id="toTop">
 
 
 
@@ -32,9 +40,10 @@
 
 
 
-<!-- jQuery CDN -->
+    <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- 前往元素 js -->
-<script src="./goto.js"></script>
+    <!-- 前往元素 js -->
+    <script src="./goto.js"></script>
 </body>
+
 </html>

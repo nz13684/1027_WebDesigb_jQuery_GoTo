@@ -17,12 +17,27 @@ nav {
 
 nav span {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 80px;
   cursor: pointer;
+  font-size: 24px;
 }
 
 section {
   height: 100vh;
   background: #1166ff;
+  font-size: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+
+section:nth-of-type(2) {
+  background: #992233;
+}
+
+#toTop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styls.css.map */
