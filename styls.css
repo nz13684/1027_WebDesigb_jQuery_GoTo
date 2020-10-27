@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=styls.css.map */
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+section {
+  height: 100vh;
+  background: #1166ff;
+}
+/*# sourceMappingURL=styls.css.map */
