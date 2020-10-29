@@ -22,6 +22,10 @@ $("*").each(function (index, element) {
             //上方位置 = 目標區塊.位移().上方位置
             var top = $(target).offset().top;
             console.log("要前往元素的上方位置：" + top);
+            
+            $("html").animate({
+                scrollTop: top - offset
+            }, parseInt(duration));
         }
     });
 });
