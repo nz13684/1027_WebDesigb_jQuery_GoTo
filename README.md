@@ -1,12 +1,12 @@
 # WEB_1027_jQuery_GoTo
 
-#範例網站
+# 範例網站
 https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 
-#CDN
+# CDN
 
 ˋˋˋ
-<!-- jQuery CDN -->'
+<!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- 前往元素 -->
@@ -14,14 +14,14 @@ https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 
 ˋˋˋ
 
-#添加ID
+# 添加ID
 在要前往的元素上添加ID
 
 ˋˋˋ
 <section id="box1"></section>
 ˋˋˋ
 
-#屬性說明
+# 屬性說明
 
 屬性明稱         │屬性說明
 ----------------│-------------------------
