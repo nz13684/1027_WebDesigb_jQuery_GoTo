@@ -13,6 +13,14 @@ https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 <script src="https://github.com/KID421/Web_HC_ZL_jQuery_GoTo/blob/main/goTo.js"></script>
 
 ˋˋˋ
+
+#添加ID
+在要前往的元素上添加ID
+
+ˋˋˋ
+<section id="box1"></section>
+ˋˋˋ
+
 #屬性說明
 
 屬性明稱         │屬性說明
