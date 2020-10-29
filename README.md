@@ -14,15 +14,15 @@ https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 
 ```
 
-# 添加ID
-在要前往的元素上添加ID
+# 添加 ID
+在要前往的元素上添加 ID
 
 ˋˋ
 <section id="box1"></section>
 ˋˋˋ
 
 # 屬性說明
-屬性明稱           |屬性說明
+屬性名稱             |屬性說明
 --------------------|-------------------------
 data-gt-target      |要前往的目標元素，必須使用ID
 data-gt-duration    |持續時間，單位為毫秒
