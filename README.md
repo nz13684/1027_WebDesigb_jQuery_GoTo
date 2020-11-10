@@ -1,4 +1,4 @@
-# WEB_1027_jQuery_GoTo
+#1027_WebDesigb_jQuery_GoTo
 
 # 範例網站
 https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
